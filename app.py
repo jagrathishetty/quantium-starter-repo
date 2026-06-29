@@ -1,4 +1,3 @@
- 
 import pandas as pd
 from dash import Dash, html, dcc, Input, Output
 import plotly.express as px
@@ -18,6 +17,7 @@ app.layout = html.Div(
     children=[
         html.H1(
             "Soul Foods Sales Visualiser",
+             id ='header',
             style={
                 "textAlign": "center",
                 "color": "#2c3e50",
